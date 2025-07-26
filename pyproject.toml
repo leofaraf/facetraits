@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "facetraits"
+version = "0.1.0"
+description = "Analyze facial features and traits using MediaPipe"
+authors = [{ name="Leon Farafonov", email="leofaraf@gmail.com" }]
+license = "MIT"
+dependencies = ["mediapipe", "opencv-python", "numpy"]
+readme = "README.md"

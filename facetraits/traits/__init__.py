@@ -26,7 +26,3 @@ class Jawline:
 @dataclass
 class Forehead:
     face_height_ratio: float
-
-@dataclass
-class BrowRidges:
-    brow_eye_dist_to_face_height_ratio: float
